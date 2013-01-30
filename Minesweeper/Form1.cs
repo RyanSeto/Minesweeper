@@ -38,7 +38,7 @@ namespace Minesweeper
         {
             InitializeComponent();
 
-            g = this.CreateGraphics();
+           // g = this.CreateGraphics();
             Rand = new Random();
 
             font = new Font("Times New Roman", 12);
@@ -90,6 +90,7 @@ namespace Minesweeper
 
         private void Form1_Paint(object sender, PaintEventArgs e)
         {
+            g = e.Graphics;
             for (int i = 0; i < 20; i++)
             {
                 for (int j = 0; j < 21; j++)
