@@ -68,8 +68,8 @@ namespace Minesweeper
 
             mineClicked = false;
 
-            imageMarked = new Bitmap("MarkedMine.png");
-            imageMine = new Bitmap("Mine.gif");
+            imageMarked = new Bitmap("..\\..\\images\\MarkedMine.png");
+            imageMine = new Bitmap("..\\..\\images\\Mine.gif");
 
             count = 0;
             exblanksN = 0;
